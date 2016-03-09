@@ -42,7 +42,7 @@ branch
 checkout
 (変更）
 
-
+==========================================================
 1. 講義で習ったcommand集
 
  - touch .gitconfig			.gitconfigの作成
@@ -64,36 +64,11 @@ checkout
  - git pull					git fetch と git merge を同時に実行するコマンド
  - git pull --rebase		git fetch と git rebase を同時に実行するコマンド
  
+ - git checkout [branch元] 	rebase元にチェックアウト
+ - git rebase [branch先]	リベースする
+
  master						ローカルの今いるところ
  origin/master				リモートの今いるところ
- 
-# 講義で習ったコマンド
-
-## .gitconfigの作成
- touch .gitconfig
-
-## リポジトリの作成
- git init
- ただし、リポジトリを作成するディレクトリで実行する
-
-## リポジトリの複製
- git clone [複製したいリポジトリのURL]
- ただし、リポジトリを作成するディレクトリで実行する
-
-## ステータスの確認
- git status
-
-## コミットファイルの追加
- git add [ファイル名]
-
-## 変更をコミット
- git commit
- 
-## ブランチの切り替え
- git checkout
- 
-## ブランチの派生元を変更
- git rebase
 
 2. Reference
 
@@ -104,9 +79,8 @@ checkout
  - コマンドまとめ
  	http://qiita.com/tc_minami/items/70958bb1d19e0d1b5a10
 
+==========================================================
 
- - git checkout [branch元] 	rebase元にチェックアウト
- - git rebase [branch先]	リベースする
 * git fsck ... リポジトリの正当性チェックを行う
 * git gc ... リポジトリ内の不要なオブジェクトを削除し、最適化を行う
 * git diff ... ファイルに加えられた変更点をdiff形式で表示する
