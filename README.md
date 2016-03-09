@@ -89,6 +89,7 @@ checkout
 * [Git-Subversion比較](http://www.backlog.jp/git-guide/reference/git-svn.html)
 * [面倒くさいsvnリポジトリをgit-svnで扱う時に役立ちそうなオプション一覧](http://sinsoku.hatenablog.com/entry/2014/02/26/231918)
 * [仕事で使ってる巨大SVNレポジトリをGithubに移管するためにやったことまとめ](http://dqn.sakusakutto.jp/2012/10/svn-git-github-migration.html)
+* [git-svnで始めるボッチのためのGit](https://speakerdeck.com/oohira/git-svnteshi-meruhotutifalsetamefalsegit)
 
 #プロキシ環境下での設定について(参考HP)
 * http://sushichop.blogspot.jp/2013/09/git.html
