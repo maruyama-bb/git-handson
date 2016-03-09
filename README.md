@@ -132,6 +132,7 @@ checkout
 * Twitter本人 <<https://twitter.com/kyon_mm?lang=ja>>
 * Twitter奥様 <<https://twitter.com/kaori_t_spica>>
 * ブログ <<http://kyon-mm.hatenablog.com/>>
+* SlideShare <<http://www.slideshare.net/KyonMm/presentations>>
 
 # Gitのコミットグラフをきれいに保つために
 * 1つのファイルを同時に編集しないよう、適切に分割する
@@ -139,4 +140,4 @@ checkout
 	* マージコミットを作らず、ローカルだけにあるコミットを```origin```の先頭に持って行く
 
 #WinMerge関連のConfig設定
-<http://qiita.com/kobake@github/items/fb317b4fdacad718a4b2>
+<http://ptech.g.hatena.ne.jp/noromanba/20120602/1338633091>
