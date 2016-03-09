@@ -22,6 +22,11 @@ gitk -all
 * git rebase master .. ローカルブランチの後ろにリモートブランチを追加
 
 
+branch
+checkout
+(変更）
+
+
 
 講義で習ったコマンド
 
@@ -46,8 +51,3 @@ gitk -all
  git commit
 f
 
-
-
-＝＝＝＝＝＝＝＝＝＝＝＝
-マージできるかテストマージ
-＝＝＝＝＝＝＝＝＝
