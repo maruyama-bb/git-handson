@@ -1,3 +1,13 @@
+edit...
+git add home.md
+git commit
+git fetch
+git merge
+git push
+
+
+gitk -all
+=======
 # Gitまめちしき h1
 
 # 基本コマンド
@@ -7,7 +17,7 @@
 * git commit　…リモート反映
 * git fetch ...リモートから履歴を取得（ブランチは変わらない。）
 * git pull ... リモートから履歴取得、ブランチ変わる。マージしたりする必要
-* git merge ... マージ。。。新しいコミットが可能
+* git merge ... マージ。
 * git pull -rebase リモートブランチの後ろにローカルの履歴を追加する
 * git rebase master .. ローカルブランチの後ろにリモートブランチを追加
 
@@ -32,8 +42,10 @@
 
 # 変更をコミット
  git commit
+f
 
-# git-svnについて
-* SubversionのリポジトリをGitクライアントで操作する
-* SVNからGitに移行する場合は、```git-svn```でGitの操作に慣れてもらってからリモートリポジトリを切り替える
 
+
+＝＝＝＝＝＝＝＝＝＝＝＝
+マージできるかテストマージ
+＝＝＝＝＝＝＝＝＝
