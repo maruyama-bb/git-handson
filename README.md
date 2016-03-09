@@ -25,7 +25,7 @@ gitk -all
 * git merge ... マージ
 * git fetch ...リモートから履歴を取得（ブランチは変わらない。）
 * git pull ... リモートから履歴取得、ブランチ変わる。マージしたりする必要
-* git pull -rebase リモートブランチの後ろにローカルの履歴を追加する
+* git pull --rebase リモートブランチの後ろにローカルの履歴を追加する
 * git merge ... マージ。
 * git merge --ff-only ... ファストフォワードでマージする
 * git merge --abort ... マージを取り消す
