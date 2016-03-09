@@ -88,7 +88,7 @@ checkout
 
 
 # git-svnについて
-* SubversionのリポジトリをGitクライアントで操作する
+* SubversionのリポジトリをGitクライアントで操作する。
 * SVNからGitに移行する場合は、```git-svn```でGitの操作に慣れてもらってからリモートリポジトリを切り替える
 
 ## Subversionに出来てGitにできない事
