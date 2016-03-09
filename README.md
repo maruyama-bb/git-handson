@@ -59,7 +59,7 @@ checkout
 * [git-scm.com](https://git-scm.com/book/ja/v1/Git%E3%81%A8%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E9%80%A3%E6%90%BA-Git-%E3%81%A8-Subversion)
 * [Atlassian](https://www.atlassian.com/ja/git/migration)
 * [Git-Subversion比較](http://www.backlog.jp/git-guide/reference/git-svn.html)
-
+* [面倒くさいsvnリポジトリをgit-svnで扱う時に役立ちそうなオプション一覧](http://sinsoku.hatenablog.com/entry/2014/02/26/231918)
 
 #プロキシ環境下での設定について(参考HP)
 http://sushichop.blogspot.jp/2013/09/git.html
