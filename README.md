@@ -64,5 +64,6 @@ checkout
 
 #プロキシ環境下での設定について(参考HP)
 http://sushichop.blogspot.jp/2013/09/git.html
+http://www.backlog.jp/git-guide/reference/config.html
 
 
