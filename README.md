@@ -45,6 +45,7 @@ checkout
  - get fetch				リモートのコピーをローカルにダウンロード
  - git merge [branch]		今いるブランチに別のブランチの内容を結合させる
  							リモートリポジトリにあるブランチや、ローカルの別のブランチをマージするときに使用
+ - git push					リモートににローカルの内容を送信する
  							
  - gitk -all &				ツリーを表示させる
  - git checkout [branch]	ブランチ名を指定してブランチを切替え
@@ -59,8 +60,14 @@ checkout
 
 2. Reference
 
-get pullとget pull -rebaseの違い
-http://kray.jp/blog/git-pull-rebase/
+ - get pullとget pull -rebaseの違い
+	http://kray.jp/blog/git-pull-rebase/
+ - サブコマンド4選
+ 	http://qiita.com/cushy79/items/248659b5b814f1deceee
+ - コマンドまとめ
+ 	http://qiita.com/tc_minami/items/70958bb1d19e0d1b5a10
+ 	
+ 	
 
  - git checkout [branch元] 	rebase元にチェックアウト
  - git rebase [branch先]	リベースする
