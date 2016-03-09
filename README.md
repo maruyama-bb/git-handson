@@ -107,7 +107,7 @@ checkout
 
  - git checkout [branch元] 	rebase元にチェックアウト
  - git rebase [branch先]	リベースする
-* git fsk ... リポジトリの正当性チェックを行う
+* git fsck ... リポジトリの正当性チェックを行う
 * git gc ... リポジトリ内の不要なオブジェクトを削除し、最適化を行う
 * git diff ... ファイルに加えられた変更点をdiff形式で表示する
 * git log ... コミットログを閲覧する
