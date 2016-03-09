@@ -66,8 +66,7 @@ checkout
  	http://qiita.com/cushy79/items/248659b5b814f1deceee
  - コマンドまとめ
  	http://qiita.com/tc_minami/items/70958bb1d19e0d1b5a10
- 	
- 	
+
 
  - git checkout [branch元] 	rebase元にチェックアウト
  - git rebase [branch先]	リベースする
