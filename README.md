@@ -1,5 +1,6 @@
 # 大野が記載
 ## WinMergeがうまく設定できてないかも
+更に追加(大野)
 
 edit...
 git add home.md
