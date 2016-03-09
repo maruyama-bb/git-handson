@@ -165,4 +165,4 @@ checkout
 	* マージコミットを作らず、ローカルだけにあるコミットを```origin```の先頭に持って行く
 
 #WinMerge関連のConfig設定
-<http://qiita.com/kobake@github/items/fb317b4fdacad718a4b2>
+<http://ptech.g.hatena.ne.jp/noromanba/20120602/1338633091>
