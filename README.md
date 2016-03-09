@@ -55,6 +55,7 @@ checkout
  - get fetch				リモートのコピーをローカルにダウンロード
  - git merge [branch]		今いるブランチに別のブランチの内容を結合させる
  							リモートリポジトリにあるブランチや、ローカルの別のブランチをマージするときに使用
+ - git push					リモートににローカルの内容を送信する
  							
  - gitk -all &				ツリーを表示させる
  - git checkout [branch]	ブランチ名を指定してブランチを切替え
@@ -96,8 +97,13 @@ checkout
 
 2. Reference
 
-get pullとget pull -rebaseの違い
-http://kray.jp/blog/git-pull-rebase/
+ - get pullとget pull -rebaseの違い
+	http://kray.jp/blog/git-pull-rebase/
+ - サブコマンド4選
+ 	http://qiita.com/cushy79/items/248659b5b814f1deceee
+ - コマンドまとめ
+ 	http://qiita.com/tc_minami/items/70958bb1d19e0d1b5a10
+
 
  - git checkout [branch元] 	rebase元にチェックアウト
  - git rebase [branch先]	リベースする
@@ -121,13 +127,13 @@ http://kray.jp/blog/git-pull-rebase/
 * [Git-Subversion比較](http://www.backlog.jp/git-guide/reference/git-svn.html)
 * [面倒くさいsvnリポジトリをgit-svnで扱う時に役立ちそうなオプション一覧](http://sinsoku.hatenablog.com/entry/2014/02/26/231918)
 * [仕事で使ってる巨大SVNレポジトリをGithubに移管するためにやったことまとめ](http://dqn.sakusakutto.jp/2012/10/svn-git-github-migration.html)
+* [git-svnで始めるボッチのためのGit](https://speakerdeck.com/oohira/git-svnteshi-meruhotutifalsetamefalsegit)
 
 #プロキシ環境下での設定について(参考HP)
 * http://sushichop.blogspot.jp/2013/09/git.html
 * http://www.backlog.jp/git-guide/reference/config.html
 
 #よくあるシナリオと対処法
-<<<<<<< d9d8d24d82b30b7497bde0422615e73730d7baa2
 
 ```
 コミット消えちゃった
@@ -164,3 +170,9 @@ http://kray.jp/blog/git-pull-rebase/
  - pushしたい場合はfetchしてマージコミットを作る（pullしない）
 * push失敗時のマージコミットは１回のみなど
  - pull --rebaseの活用
+
+# Gitのコミットグラフをきれいに保つために
+* 1つのファイルを同時に編集しないよう、適切に分割する
+* ```git push```でrejectされた場合は```git pull --rebase```を使う
+	* マージコミットを作らず、ローカルだけにあるコミットを```origin```の先頭に持って行く
+
