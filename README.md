@@ -1,3 +1,4 @@
+=======
 # 大野が記載
 ## WinMergeがうまく設定できてないかも
 更に追加(大野)
@@ -101,3 +102,4 @@ http://kray.jp/blog/git-pull-rebase/
 　　　push失敗時のマージコミットは１回のみなど
 　　⇒pull --rebaseの活用
 ```
+
