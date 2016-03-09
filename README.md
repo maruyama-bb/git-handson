@@ -1,3 +1,6 @@
+# 大野が記載
+## WinMergeがうまく設定できてないかも
+=======
 edit...
 git add home.md
 git commit
@@ -21,6 +24,7 @@ gitk -all
 * git pull -rebase リモートブランチの後ろにローカルの履歴を追加する
 * git rebase master .. ローカルブランチの後ろにリモートブランチを追加
 
+<<<<<<< HEAD
 
 branch
 checkout
@@ -29,6 +33,9 @@ checkout
 
 
 講義で習ったコマンド
+=======
+# 講義で習ったコマンド
+>>>>>>> refs/remotes/origin/master
 
 # .gitconfigの作成
  touch .gitconfig
@@ -50,4 +57,14 @@ checkout
 # 変更をコミット
  git commit
 f
+
+=======
+
+# git-svnについて
+* SubversionのリポジトリをGitクライアントで操作する
+* SVNからGitに移行する場合は、```git-svn```でGitの操作に慣れてもらってからリモートリポジトリを切り替える
+=======
+## git-svnに関するリンク
+* [git-scm.com](https://git-scm.com/book/ja/v1/Git%E3%81%A8%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E9%80%A3%E6%90%BA-Git-%E3%81%A8-Subversion)
+* [Atlassian](https://www.atlassian.com/ja/git/migration)
 
