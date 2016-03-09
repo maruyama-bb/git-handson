@@ -32,7 +32,6 @@ checkout
 (変更）
 
 
-=================
 1. 講義で習ったcommand集
 
  - touch .gitconfig			.gitconfigの作成
@@ -64,8 +63,10 @@ http://kray.jp/blog/git-pull-rebase/
 
  - git checkout [branch元] 	rebase元にチェックアウト
  - git rebase [branch先]	リベースする
-
-=================
+* git fsk ... リポジトリの正当性チェックを行う
+* git gc ... リポジトリ内の不要なオブジェクトを削除し、最適化を行う
+* git diff ... ファイルに加えられた変更点をdiff形式で表示する
+* git log ... コミットログを閲覧する
 
 
 # git-svnについて
@@ -101,4 +102,12 @@ http://kray.jp/blog/git-pull-rebase/
 　　　push失敗時のマージコミットは１回のみなど
 　　⇒pull --rebaseの活用
 ```
+# 変更をコミット
+ git commit
+ 
+# ブランチの切り替え
+ git checkout
+ 
+# ブランチの派生元を変更
+ git rebase
 
