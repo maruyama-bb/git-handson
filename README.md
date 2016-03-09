@@ -28,7 +28,14 @@ gitk -all
 * git pull -rebase リモートブランチの後ろにローカルの履歴を追加する
 * git merge ... マージ。
 * git merge --ff-only ... ファストフォワードでマージする
+* git merge --abort ... マージを取り消す
 * git rebase master .. ローカルブランチの後ろにリモートブランチを追加
+* git fsk ... リポジトリの正当性チェックを行う
+* git gc ... リポジトリ内の不要なオブジェクトを削除し、最適化を行う
+* git diff ... ファイルに加えられた変更点をdiff形式で表示する
+* git log ... コミットログを閲覧する
+* git reset ... 直前のコミットを取り消す
+* git tag ... コミットにタグを付ける
 
  
 branch
