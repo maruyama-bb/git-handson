@@ -1,20 +1,33 @@
+# 基本コマンド
+* git init
+* git clone
+* git add    …commit準備状態
+* git commit　…リモート反映
+* git fetch ...リモートから履歴を取得（ブランチは変わらない。）
+* git pull ... リモートから履歴取得、ブランチ変わる。マージしたりする必要
+* git merge ... マージ。。。新しいコミットが可能
+* git pull -rebase リモートブランチの後ろにローカルの履歴を追加する
+* git rebase master .. ローカルブランチの後ろにリモートブランチを追加
 
-# .gitconfig�̍쐬
+
+講義で習ったコマンド
+
+# .gitconfigの作成
  touch .gitconfig
 
-# ���|�W�g���̍쐬
+# リポジトリの作成
  git init
- �������A���|�W�g�����쐬����f�B���N�g���Ŏ��s����
+ ただし、リポジトリを作成するディレクトリで実行する
 
-# ���|�W�g���̕���
- git clone [�������������|�W�g����URL]
- �������A���|�W�g�����쐬����f�B���N�g���Ŏ��s����
+# リポジトリの複製
+ git clone [複製したいリポジトリのURL]
+ ただし、リポジトリを作成するディレクトリで実行する
 
-# �X�e�[�^�X�̊m�F
+# ステータスの確認
  git status
 
-# �R�~�b�g�t�@�C���̒ǉ�
- git add [�t�@�C����]
+# コミットファイルの追加
+ git add [ファイル名]
 
-# �ύX���R�~�b�g
+# 変更をコミット
  git commit
