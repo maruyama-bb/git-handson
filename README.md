@@ -127,6 +127,7 @@ http://kray.jp/blog/git-pull-rebase/
 * http://www.backlog.jp/git-guide/reference/config.html
 
 #よくあるシナリオと対処法
+<<<<<<< d9d8d24d82b30b7497bde0422615e73730d7baa2
 
 ```
 コミット消えちゃった
@@ -153,3 +154,13 @@ http://kray.jp/blog/git-pull-rebase/
 * Twitter本人 <<https://twitter.com/kyon_mm?lang=ja>>
 * Twitter奥様 <<https://twitter.com/kaori_t_spica>>
 * ブログ <<http://kyon-mm.hatenablog.com/>>
+* コミット消えちゃった
+ - コミットはそうそう消えない
+ - 消えているように見えていても、そう見えてるだけで実際は消えていない。
+ - reflogというコマンドでコミット見つけられる。headからの履歴を参照できる。
+* コミットは細かいほうがよい。
+ - stashコマンドはheadが動かないコミットより取り戻すのが面倒。
+* いつまでたってもpushできない。コミットグラフがすごいことに
+ - pushしたい場合はfetchしてマージコミットを作る（pullしない）
+* push失敗時のマージコミットは１回のみなど
+ - pull --rebaseの活用
