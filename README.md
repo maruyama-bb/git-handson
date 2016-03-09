@@ -37,7 +37,7 @@ gitk -all
 * git reset ... 直前のコミットを取り消す
 * git tag ... コミットにタグを付ける
 
- 
+
 branch
 checkout
 (変更）
