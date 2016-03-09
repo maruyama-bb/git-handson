@@ -1,10 +1,10 @@
-# Šî–{ƒRƒ}ƒ“ƒh
+# åŸºæœ¬ã‚³ãƒžãƒ³ãƒ‰
 * git init
 * git clone
-* git add    ccommit€”õó‘Ô
-* git commit@cƒŠƒ‚[ƒg”½‰f
-* git fetch ...ƒŠƒ‚[ƒg‚©‚ç—š—ð‚ðŽæ“¾iƒuƒ‰ƒ“ƒ`‚Í•Ï‚í‚ç‚È‚¢Bj
-* git pull ... ƒŠƒ‚[ƒg‚©‚ç—š—ðŽæ“¾Aƒuƒ‰ƒ“ƒ`•Ï‚í‚éBƒ}[ƒW‚µ‚½‚è‚·‚é•K—v
-* git merge ... ƒ}[ƒWBBBV‚µ‚¢ƒRƒ~ƒbƒg‚ª‰Â”\
-* git pull -rebase ƒŠƒ‚[ƒgƒuƒ‰ƒ“ƒ`‚ÌŒã‚ë‚Éƒ[ƒJƒ‹‚Ì—š—ð‚ð’Ç‰Á‚·‚é
-* git rebase master .. ƒ[ƒJƒ‹ƒuƒ‰ƒ“ƒ`‚ÌŒã‚ë‚ÉƒŠƒ‚[ƒgƒuƒ‰ƒ“ƒ`‚ð’Ç‰Á
+* git add    â€¦commitæº–å‚™çŠ¶æ…‹
+* git commitã€€â€¦ãƒªãƒ¢ãƒ¼ãƒˆåæ˜ 
+* git fetch ...ãƒªãƒ¢ãƒ¼ãƒˆã‹ã‚‰å±¥æ­´ã‚’å–å¾—ï¼ˆãƒ–ãƒ©ãƒ³ãƒã¯å¤‰ã‚ã‚‰ãªã„ã€‚ï¼‰
+* git pull ... ãƒªãƒ¢ãƒ¼ãƒˆã‹ã‚‰å±¥æ­´å–å¾—ã€ãƒ–ãƒ©ãƒ³ãƒå¤‰ã‚ã‚‹ã€‚ãƒžãƒ¼ã‚¸ã—ãŸã‚Šã™ã‚‹å¿…è¦
+* git merge ... ãƒžãƒ¼ã‚¸ã€‚ã€‚ã€‚æ–°ã—ã„ã‚³ãƒŸãƒƒãƒˆãŒå¯èƒ½
+* git pull -rebase ãƒªãƒ¢ãƒ¼ãƒˆãƒ–ãƒ©ãƒ³ãƒã®å¾Œã‚ã«ãƒ­ãƒ¼ã‚«ãƒ«ã®å±¥æ­´ã‚’è¿½åŠ ã™ã‚‹
+* git rebase master .. ãƒ­ãƒ¼ã‚«ãƒ«ãƒ–ãƒ©ãƒ³ãƒã®å¾Œã‚ã«ãƒªãƒ¢ãƒ¼ãƒˆãƒ–ãƒ©ãƒ³ãƒã‚’è¿½åŠ 
