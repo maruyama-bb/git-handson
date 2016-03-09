@@ -59,6 +59,33 @@ checkout
  master						ローカルの今いるところ
  origin/master				リモートの今いるところ
  
+# 講義で習ったコマンド
+
+## .gitconfigの作成
+ touch .gitconfig
+
+## リポジトリの作成
+ git init
+ ただし、リポジトリを作成するディレクトリで実行する
+
+## リポジトリの複製
+ git clone [複製したいリポジトリのURL]
+ ただし、リポジトリを作成するディレクトリで実行する
+
+## ステータスの確認
+ git status
+
+## コミットファイルの追加
+ git add [ファイル名]
+
+## 変更をコミット
+ git commit
+ 
+## ブランチの切り替え
+ git checkout
+ 
+## ブランチの派生元を変更
+ git rebase
 
 2. Reference
 
@@ -115,3 +142,7 @@ http://kray.jp/blog/git-pull-rebase/
 # ブランチの派生元を変更
  git rebase
 
+# きょん氏について
+* Twitter本人 <<https://twitter.com/kyon_mm?lang=ja>>
+* Twitter奥様 <<https://twitter.com/kaori_t_spica>>
+* ブログ <<http://kyon-mm.hatenablog.com/>>
