@@ -20,12 +20,13 @@ gitk -all
 * git clone
 * git add    …commit準備状態
 * git commit　…リモート反映
-* git fetch ...リモートから履歴を取得（ブランチは変わらない。）
-* git pull ... リモートから履歴取得、ブランチ変わる。マージしたりする必要
-* git merge ... マージ。
+* git fetch ...リモートから履歴を取得
+* git pull ... リモートから履歴取得
+* git merge ... マージ
 * git pull -rebase リモートブランチの後ろにローカルの履歴を追加する
 * git rebase master .. ローカルブランチの後ろにリモートブランチを追加
 
+ 
 branch
 checkout
 (変更）
@@ -65,7 +66,18 @@ checkout
 * [仕事で使ってる巨大SVNレポジトリをGithubに移管するためにやったことまとめ](http://dqn.sakusakutto.jp/2012/10/svn-git-github-migration.html)
 
 #プロキシ環境下での設定について(参考HP)
-http://sushichop.blogspot.jp/2013/09/git.html
-http://www.backlog.jp/git-guide/reference/config.html
+* http://sushichop.blogspot.jp/2013/09/git.html
+* http://www.backlog.jp/git-guide/reference/config.html
 
+#よくあるシナリオと対処法
+*コミット消えちゃった
+*　　-コミットはそうそう消えない
+*　　-消えているように見えていても、そう見えてるだけで実際は消えていない。
+*       -reflogというコマンドでコミット見つけられる。headからの履歴を参照できる。
+*　　 コミットは細かいほうがよい。
+*　　-stashコマンドはheadが動かないコミットより取り戻すのが面倒。
+*・いつまでたってもpushできない。コミットグラフがすごいことに
+*　　⇒pushしたい場合はfetchしてマージコミットを作る（pullしない）
+*　　　push失敗時のマージコミットは１回のみなど
+*　　⇒pull --rebaseの活用
 
