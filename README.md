@@ -29,27 +29,41 @@ checkout
 (変更）
 
 
-# 講義で習ったコマンド
+=================
+1. 講義で習ったcommand集
 
-# .gitconfigの作成
- touch .gitconfig
+ - touch .gitconfig			.gitconfigの作成
+ - git init					リポジトリの作成（リポジトリを作成するディレクトリで実行）
+ - git clone [URL]			リポジトリの複製（リポジトリを作成するディレクトリで実行）
+ - git status				ステータスの確認
+ 
+ - git add [ファイル名]		コミットファイルの追加
+ - git commit				変更をコミット
+ - get fetch				リモートのコピーをローカルにダウンロード
+ - git merge [branch]		今いるブランチに別のブランチの内容を結合させる
+ 							リモートリポジトリにあるブランチや、ローカルの別のブランチをマージするときに使用
+ 							
+ - gitk -all &				ツリーを表示させる
+ - git checkout [branch]	ブランチ名を指定してブランチを切替え
+ - git rebase [branch]		mergeと同じく今いるブランチに別のブランチの内容を取り込むコマンド
 
-# リポジトリの作成
- git init
- ただし、リポジトリを作成するディレクトリで実行する
+ - git pull					git fetch と git merge を同時に実行するコマンド
+ - git pull --rebase		git fetch と git rebase を同時に実行するコマンド
+ 
+ master						ローカルの今いるところ
+ origin/master				リモートの今いるところ
+ 
 
-# リポジトリの複製
- git clone [複製したいリポジトリのURL]
- ただし、リポジトリを作成するディレクトリで実行する
+2. Reference
 
-# ステータスの確認
- git status
+get pullとget pull -rebaseの違い
+http://kray.jp/blog/git-pull-rebase/
 
-# コミットファイルの追加
- git add [ファイル名]
+ - git checkout [branch元] 	rebase元にチェックアウト
+ - git rebase [branch先]	リベースする
 
-# 変更をコミット
- git commit
+=================
+
 
 # git-svnについて
 * SubversionのリポジトリをGitクライアントで操作する
