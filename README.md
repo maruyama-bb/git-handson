@@ -176,3 +176,5 @@ checkout
 * ```git push```でrejectされた場合は```git pull --rebase```を使う
 	* マージコミットを作らず、ローカルだけにあるコミットを```origin```の先頭に持って行く
 
+#WinMerge関連のConfig設定
+<http://qiita.com/kobake@github/items/fb317b4fdacad718a4b2>
