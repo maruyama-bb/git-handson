@@ -24,6 +24,8 @@ gitk -all
 * git pull -rebase リモートブランチの後ろにローカルの履歴を追加する
 * git rebase master .. ローカルブランチの後ろにリモートブランチを追加
 
+*pull --rebase 確認
+ 
 branch
 checkout
 (変更）
