@@ -57,7 +57,6 @@ checkout
  - git merge [branch]		今いるブランチに別のブランチの内容を結合させる
  							リモートリポジトリにあるブランチや、ローカルの別のブランチをマージするときに使用
  - git push					リモートににローカルの内容を送信する
- 							
  - gitk --all &				ツリーを表示させる
  - git checkout [branch]	ブランチ名を指定してブランチを切替え
  - git rebase [branch]		mergeと同じく今いるブランチに別のブランチの内容を取り込むコマンド
@@ -73,6 +72,16 @@ checkout
 
 2. Reference
 
+
+get pullとget pull -rebaseの違い
+http://kray.jp/blog/git-pull-rebase/
+
+ - git checkout [branch元] 	rebase元にチェックアウト
+ - git rebase [branch先]	リベースする
+
+=================
+
+=======
  - git pullとgit pull -rebaseの違い
 	http://kray.jp/blog/git-pull-rebase/
  - サブコマンド4選
@@ -86,7 +95,6 @@ checkout
 * git gc ... リポジトリ内の不要なオブジェクトを削除し、最適化を行う
 * git diff ... ファイルに加えられた変更点をdiff形式で表示する
 * git log ... コミットログを閲覧する
-
 
 # git-svnについて
 * SubversionのリポジトリをGitクライアントで操作する。
@@ -135,6 +143,7 @@ checkout
 * Twitter奥様 <<https://twitter.com/kaori_t_spica>>
 * ブログ <<http://kyon-mm.hatenablog.com/>>
 * SlideShare <<http://www.slideshare.net/KyonMm/presentations>>
+
 
 # Gitのコミットグラフをきれいに保つために
 * 1つのファイルを同時に編集しないよう、適切に分割する
