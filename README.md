@@ -64,8 +64,8 @@ checkout
 * [仕事で使ってる巨大SVNレポジトリをGithubに移管するためにやったことまとめ](http://dqn.sakusakutto.jp/2012/10/svn-git-github-migration.html)
 
 #プロキシ環境下での設定について(参考HP)
-http://sushichop.blogspot.jp/2013/09/git.html
-http://www.backlog.jp/git-guide/reference/config.html
+* http://sushichop.blogspot.jp/2013/09/git.html
+* http://www.backlog.jp/git-guide/reference/config.html
 
 #よくあるシナリオと対処法
 *コミット消えちゃった
