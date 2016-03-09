@@ -52,7 +52,7 @@ checkout
  
  - git add [ファイル名]		コミットファイルの追加
  - git commit				変更をコミット
- - get fetch				リモートのコピーをローカルにダウンロード
+ - git fetch				リモートのコピーをローカルにダウンロード
  - git merge [branch]		今いるブランチに別のブランチの内容を結合させる
  							リモートリポジトリにあるブランチや、ローカルの別のブランチをマージするときに使用
  - git push					リモートににローカルの内容を送信する
@@ -97,7 +97,7 @@ checkout
 
 2. Reference
 
- - get pullとget pull -rebaseの違い
+ - git pullとgit pull -rebaseの違い
 	http://kray.jp/blog/git-pull-rebase/
  - サブコマンド4選
  	http://qiita.com/cushy79/items/248659b5b814f1deceee
