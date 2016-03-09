@@ -12,7 +12,6 @@
 * git rebase master .. ローカルブランチの後ろにリモートブランチを追加
 
 
-
 講義で習ったコマンド
 
 # .gitconfigの作成
@@ -34,4 +33,8 @@
 
 # 変更をコミット
  git commit
+
+# git-svnについて
+* SubversionのリポジトリをGitクライアントで操作する
+* SVNからGitに移行する場合は、```git-svn```でGitの操作に慣れてもらってからリモートリポジトリを切り替える
 
