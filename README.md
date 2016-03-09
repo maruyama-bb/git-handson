@@ -50,7 +50,6 @@ checkout
 
 # 変更をコミット
  git commit
-f
 
 =======
 
